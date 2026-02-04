@@ -20,6 +20,6 @@ public class Solution
             }
         }
 
-        return new int[0]; // retorno para o c# nn encher o saco
+        return new int[0]; // retorno aleatorio para o c# nn encher o saco
     }
 }

@@ -6,4 +6,4 @@ Repositório destinado ao armazenamento e organização de resoluções de probl
 Este repositório é multilinguagem, focado em praticar a sintaxe e as particularidades de cada linguagem
 
 ## 🧠 Objetivo
-Documentar minha evolução em algoritmos e manter um histórico prático de estudos durante a graduação de Engenharia de Software.
+Documentar minha evolução em algoritmos e manter um histórico prático de estudos durante a graduação de Engenharia de Software. Além de mostrar para recrutadores o meu conhecimento sobre programação

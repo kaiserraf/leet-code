@@ -9,9 +9,6 @@ public class Solution {
             x = x / 10;
         }
 
-        //string strInv = inverso.ToString();
-        //string strNum = numOriginal.ToString();
-
         if(inverso == numOriginal){
             return true;
         }else{

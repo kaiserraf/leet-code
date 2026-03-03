@@ -20,12 +20,22 @@ public class Solution
             if(dic.TryGetValue(simArr[i], out int valor)){ numArr[i] = valor; } // ve valor dentro do hashmap e atribui o numero
         }
 
-        int t = 0; // total
-        int vf = 0; // valor final
+        int valorFinal;
+        int valorTotal;
 
-        for(int i = numArr.Length - 1; i >= 0; i--) // eu sei que tem que correr de tras pra frente, mas como?
+        for(int i = numArr.Length - 1; i >= 0; i--) // correr de tras pra frente
         {
-            
+            int numAtual = numArr[i];
+            int numAntes = numArr[i - 1];
+
+            if(numAntes > numAtual)
+            {
+                // soma
+            }
+            if(numAntes < numAtual)
+            {
+                // subtrai
+            }
         }
     }
 }

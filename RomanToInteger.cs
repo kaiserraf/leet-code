@@ -20,26 +20,19 @@ public class Solution
             if(dic.TryGetValue(simArr[i], out int valor)){ numArr[i] = valor; } // ve valor dentro do hashmap e atribui o numero
         }
 
-        int valorFinal = 0;
-        int valorTotal = 0;
-        int numUltimo = 0;
+        int valorTotal = 0; // int para armazenar o valor total
+        int numUltimo = 0; // int para usar como ultimo numero visto
 
         for(int i = numArr.Length - 1; i >= 0; i--) // correr de tras pra frente
         {
-            int numAtual = numArr[i];
+            int numAtual = numArr[i]; // numero atual, usado como referencia
 
-            if(numAtual < numUltimo)
-            {
-                valorTotal -= numAtual;
-            }
-            else
-            {
-                valorTotal += numAtual;
-            }
+            if(numAtual < numUltimo) { valorTotal -= numAtual; } // se o numero atual for menor que o ultimo visto -> subtrai
+            else { valorTotal += numAtual; } // se não -> soma
 
-            numUltimo = numAtual;
+            numUltimo = numAtual; // atribui o valor atual ao ultimo visto para continuar o loop
         }
 
-        return valorTotal;
+        return valorTotal; // retorna a soma final
     }
 }

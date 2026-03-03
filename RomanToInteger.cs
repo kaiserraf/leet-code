@@ -30,12 +30,16 @@ public class Solution
 
             if(numAntes > numAtual)
             {
-                // soma
+                valorTotal += numAtual;
             }
             if(numAntes < numAtual)
             {
-                // subtrai
+                valorTotal -= numAtual;
             }
+
+            valorFinal = numAtual;
         }
+
+        return valorFinal;
     }
 }
